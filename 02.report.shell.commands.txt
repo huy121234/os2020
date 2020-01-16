@@ -1,0 +1,19 @@
+1. input : wc /etc/passwd
+   output: 46   81 2775 /etc/passwd
+
+2.input : free
+  output :        total        used        free      shared  buff/cache   available
+Mem:        3898536     1505036      863588      164812     1529912     1964996
+Swap:        929440      122880      806560
+
+3.input : dog/proc/cpuinfo
+  output : bash: dog/proc/cpuinfo: No such file or directory
+
+4.input :find *.jpg
+  output: ind: ‘*.jpg’: No such file or directory
+
+5.input: ls | grep list
+  output: nothing
+
+
+
