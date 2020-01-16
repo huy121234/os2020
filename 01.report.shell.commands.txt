@@ -1,0 +1,53 @@
+command: echo hello world
+output : hello world
+
+command: passwd
+output : changing password
+
+command: date
+output : Thứ năm, 16 Tháng 1 năm 2020 10:12:22 +07
+
+command: arch
+output : x86_64
+
+command: uname
+output : linux
+
+command: uptime
+output : 10:14:53 up  1:19,  1 user,  load average: 0,32, 0,39, 0,45
+
+command: whoami
+output : huyyvu
+
+command: who
+output : huyyvu   :0           2020-01-16 15:55 (:0)
+
+command: id
+output : id=1000(huyyvu) gid=1000(huyyvu) groups=1000(huyyvu),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),119(lpadmin),130(lxd),131(sambashare)
+
+command :last
+output :huyyvu   :0           :0               Tue Jan 14 21:46 - down   (00:02)
+reboot   system boot  5.3.0-26-generic Tue Jan 14 21:45 - 21:48  (00:03)
+huyyvu   :0           :0               Mon Jan 13 20:27 - down   (00:01)
+reboot   system boot  5.3.0-26-generic Mon Jan 13 20:27 - 20:29  (00:02)
+reboot   system boot  5.3.0-26-generic Mon Jan 13 04:33 - 21:34  (-6:59)
+reboot   system boot  5.3.0-26-generic Sun Jan 12 15:59 - 10:00  (-5:59)
+huyyvu   :0           :0               Sun Jan 12 06:35 - down   (-6:30)
+reboot   system boot  5.3.0-26-generic Sun Jan 12 06:33 - 00:04  (-6:28)
+huyyvu   :0           :0               Sat Jan 11 12:02 - down   (00:02)
+reboot   system boot  5.3.0-26-generic Sat Jan 11 11:59 - 12:05  (00:05)
+
+command: w
+output :10:19:46 up  1:24,  1 user,  load average: 0,39, 0,31, 0,39
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+huyyvu   :0       :0               15:55   ?xdm?  19:54   0.02s /usr/lib/gdm3/g
+
+command: dmesg
+output : [  126.127765] ACPI Error: Aborting method \_SB.GINF due to previous error (AE_AML_PACKAGE_LIMIT) (20190703/psparse-529)
+[  126.127774] ACPI Error: Aborting method \_SB.GADR due to previous error (AE_AML_PACKAGE_LIMIT) (20190703/psparse-529)
+[  126.127779] ACPI Error: Aborting method \_SB.SGOV due to previous error (AE_AML_PACKAGE_LIMIT) (20190703/psparse-529)
+[  126.127783] ACPI Error: Aborting method \_SB.CGWR due to previous error (AE_AML_PACKAGE_LIMIT) (20190703/psparse-529)
+[  126.127788] ACPI Error: Aborting method \_SB.TBFP due to previous error (AE_AML_PACKAGE_LIMIT) (20190703/psparse-529)
+[  126.127792] ACPI Error: Aborting method \_SB.WMTF.WMTF due to previous error (AE_AML_PACKAGE_LIMIT) (20190703/psparse-529)
+
+
