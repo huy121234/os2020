@@ -1,0 +1,11 @@
+
+
+1.	Command: 	ps -A | grep firefox	
+	Output:
+ 2284 ?        00:04:44 firefox
+
+2.	Command:	ps -o nlwp 2284
+	Output:		NLWP
+  		    	  67
+
+		

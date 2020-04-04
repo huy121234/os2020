@@ -1,0 +1,44 @@
+
+
+1.  Command:  ps -ax
+    Output:
+
+
+ PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:02 /sbin/init splash
+    2 ?        S      0:00 [kthreadd]
+    3 ?        I<     0:00 [rcu_gp]
+    4 ?        I<     0:00 [rcu_par_gp]
+    ..
+    3803 ?        S      0:00 /lib/systemd/systemd-udevd
+    3804 ?        S      0:00 /lib/systemd/systemd-udevd
+    3805 ?        S      0:00 /lib/systemd/systemd-udevd
+    3806 ?        S      0:00 /lib/systemd/systemd-udevd
+    3807 ?        S      0:00 /lib/systemd/systemd-udevd
+    3808 ?        S      0:00 /lib/systemd/systemd-udevd
+    3809 ?        S      0:00 /lib/systemd/systemd-udevd
+    3810 ?        S      0:00 /lib/systemd/systemd-udevd
+    3811 ?        I      0:00 [kworker/7:0-cgroup_destroy]
+    3812 ?        I      0:00 [kworker/7:3]
+    3813 pts/0    R+     0:00 ps -ax
+ 
+   
+2. 	Command:	open -a Calculator
+	Output :        open Calculator app
+
+
+3. 	Command:	ps -ax | grep Calculator
+	Output:         3967 pts/0    S+     0:00 grep --color=auto Calculator
+		  
+
+4. 	Command:	kill -STOP 12481
+	Output:         bash: kill: (12481) - No such process
+
+
+5. 	Command:	kill -CONT 12481
+	Output:		bash: kill: (12481) - No such process
+
+
+6.	Command:	kill -KILL 12481
+	Output:		bash: kill: (12481) - No such process
+

@@ -1,0 +1,18 @@
+
+
+1. Command: 	cat /proc/sched_debug | grep systemd
+   Output: 	bash: cat/proc/sched_debug: No such file or directory
+
+2. Command: 	ps -A | grep systemd
+   Output: 
+  1 ?          00:00:08 systemd
+  360 ?        00:00:00 systemd-journal
+  390 ?        00:00:02 systemd-udevd
+  879 ?        00:00:00 systemd-resolve
+  880 ?        00:00:00 systemd-timesyn
+  915 ?        00:00:00 systemd-logind
+  1559 ?       00:00:00 systemd
+
+   Command: 	grep switches /proc
+   Output: 	grep: /proc: Is a directory
+
